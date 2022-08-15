@@ -1,6 +1,10 @@
 #include "sort.h"
 /**
- *
+ * swap - function to swap two nodes
+ * @h: head pointer to a linked list
+ * @pre: node 1 two be swapped
+ * @node: node 2 to be swapped
+ * Return: void
  */
 void swap(listint_t **h, listint_t **pre, listint_t *node)
 {
