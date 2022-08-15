@@ -22,8 +22,8 @@ void selection_sort(int *array, size_t size)
 				array[j] = array[j] + array[i];
 				array[i] = array[j] - array[i];
 				array[j] = array[j] - array[i];
+				print_array(array, size);
 			}
 		}
-		print_array(array, size);
 	}
 }
