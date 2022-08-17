@@ -1,7 +1,7 @@
 #include "sort.h"
 void swap(int *a, int *b);
 int partition(int *array, int low, int high, size_t size);
-void sort(int * array, int low, int high, size_t size);
+void sort(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
 
 /**
@@ -31,9 +31,6 @@ void swap(int *a, int *b)
 
 int partition(int *array, int low, int high, size_t size)
 {
-	/* pivot - element of the array which divideds the array
-	 into higher and lower parts */
-
 	int *pivot, above, below;
 
 	pivot = array + high;
