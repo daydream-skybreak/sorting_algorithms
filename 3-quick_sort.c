@@ -78,6 +78,7 @@ void sort(int *array, int low, int high, size_t size)
 
 /**
  * quick_sort - sorts an array in a quick sort algorithm
+ * @array: array to be sorted
  * @size: size of the array
  * Return: void
  */
